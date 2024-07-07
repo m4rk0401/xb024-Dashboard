@@ -1,0 +1,17 @@
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:37:18:virtual void touchgfx::Presenter::activate()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:47:18:virtual void touchgfx::Presenter::deactivate()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:touchgfx::Presenter::~Presenter()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:52:13:virtual touchgfx::Presenter::~Presenter()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:58:5:touchgfx::Presenter::Presenter()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:13:5:ModelListener::ModelListener()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:15:13:ModelListener::~ModelListener()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:15:13:virtual ModelListener::~ModelListener()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:22:18:virtual void ModelListener::set_new_value(int)	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:23:18:virtual void ModelListener::set_basicinfo(DASHBOARD_BASICINFO)	1
+../../TouchGFX/gui/include/gui/main_screen/MainPresenter.hpp:28:13:MainPresenter::~MainPresenter()	1
+../../TouchGFX/gui/include/gui/main_screen/MainPresenter.hpp:28:13:virtual MainPresenter::~MainPresenter()	1
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainPresenter.cpp:4:1:MainPresenter::MainPresenter(MainView&)	1
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainPresenter.cpp:10:6:virtual void MainPresenter::activate()	1
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainPresenter.cpp:15:6:virtual void MainPresenter::deactivate()	1
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainPresenter.cpp:20:6:virtual void MainPresenter::set_new_value(int)	1
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainPresenter.cpp:25:6:virtual void MainPresenter::set_basicinfo(DASHBOARD_BASICINFO)	1

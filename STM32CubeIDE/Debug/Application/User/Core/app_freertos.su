@@ -1,0 +1,7 @@
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/app_freertos.c:110:6:vApplicationMallocFailedHook	4	static
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/app_freertos.c:126:6:vApplicationIdleHook	4	static
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/app_freertos.c:141:6:vApplicationStackOverflowHook	16	static
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/app_freertos.c:154:6:MX_FREERTOS_Init	8	static
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/app_freertos.c:205:6:StartDefaultTask	16	static
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/app_freertos.c:225:6:test_task_func	16	static
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/app_freertos.c:263:6:button_task	16	static

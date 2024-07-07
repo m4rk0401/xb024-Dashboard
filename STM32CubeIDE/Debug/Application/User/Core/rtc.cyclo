@@ -1,0 +1,3 @@
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/rtc.c:30:6:MX_RTC_Init	6
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/rtc.c:116:6:HAL_RTC_MspInit	3
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/rtc.c:157:6:HAL_RTC_MspDeInit	2

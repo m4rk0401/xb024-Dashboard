@@ -1,0 +1,7 @@
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/fdcan.c:38:6:MX_FDCAN1_Init	2
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/fdcan.c:76:6:HAL_FDCAN_MspInit	3
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/fdcan.c:120:6:HAL_FDCAN_MspDeInit	2
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/fdcan.c:146:6:BSP_CAN_Start	2
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/fdcan.c:168:6:BSP_CAN_Filter_Config	3
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/fdcan.c:196:6:BSP_CAN_Send_Message	1
+C:/TouchGFXProjects/TUfast_2.0/Core/Src/fdcan.c:223:6:HAL_FDCAN_RxFifo0Callback	8

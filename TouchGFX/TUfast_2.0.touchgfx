@@ -1,0 +1,523 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Main",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 800,
+            "Height": 480
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 436,
+            "Y": 48,
+            "Width": 202,
+            "Height": 48,
+            "TextId": "__SingleUse_VE94",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_Y2ZU",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "soc_val",
+            "X": 212,
+            "Y": 48,
+            "Width": 118,
+            "Height": 48,
+            "TextId": "__SingleUse_FRL3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_0GBC",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "mission_val",
+            "X": 149,
+            "Y": 300,
+            "Width": 245,
+            "Height": 48,
+            "TextId": "__SingleUse_0L9Y",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_ID81",
+              "UseBuffer": true,
+              "BufferSize": 12
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "sdc_val",
+            "X": 425,
+            "Y": 300,
+            "Width": 224,
+            "Height": 48,
+            "TextId": "__SingleUse_LDZ4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_3FEA",
+              "UseBuffer": true,
+              "BufferSize": 12
+            }
+          },
+          {
+            "Type": "Circle",
+            "Name": "sdc_light_border",
+            "X": 712,
+            "Y": 293,
+            "Width": 88,
+            "Height": 88,
+            "Color": {
+              "Red": 158,
+              "Green": 158,
+              "Blue": 158
+            },
+            "CenterX": 44.0,
+            "CenterY": 44.0,
+            "Radius": 24.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "sdc_light",
+            "X": 716,
+            "Y": 297,
+            "Width": 80,
+            "Height": 80,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 266,
+            "Width": 10,
+            "Height": 480,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "EndX": 5.0,
+            "EndY": 480.0,
+            "LineWidth": 1.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1_1",
+            "X": 532,
+            "Width": 10,
+            "Height": 480,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "EndX": 5.0,
+            "EndY": 480.0,
+            "LineWidth": 1.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Y": 380,
+            "Width": 200,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1",
+            "X": 200,
+            "Y": 380,
+            "Width": 200,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_2",
+            "X": 400,
+            "Y": 380,
+            "Width": 200,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_3",
+            "X": 600,
+            "Y": 380,
+            "Width": 200,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "mission_label",
+            "X": 216,
+            "Y": 252,
+            "Width": 110,
+            "Height": 36,
+            "TextId": "__SingleUse_N0GM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "soc_label",
+            "X": 241,
+            "Width": 60,
+            "Height": 36,
+            "TextId": "__SingleUse_WO5H",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "sdc_label",
+            "X": 505,
+            "Y": 252,
+            "Width": 65,
+            "Height": 36,
+            "TextId": "__SingleUse_4ODG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "power_label",
+            "X": 226,
+            "Y": 126,
+            "Width": 91,
+            "Height": 36,
+            "TextId": "__SingleUse_SAFW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "battemp_label",
+            "X": 466,
+            "Width": 143,
+            "Height": 36,
+            "TextId": "__SingleUse_R5CT",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "speedlim_label",
+            "X": 457,
+            "Y": 126,
+            "Width": 160,
+            "Height": 36,
+            "TextId": "__SingleUse_3YVU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "main_menu_label",
+            "X": 53,
+            "Y": 406,
+            "Width": 94,
+            "Height": 48,
+            "TextId": "__SingleUse_VLJ8",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "mission_menu_label",
+            "X": 227,
+            "Y": 406,
+            "Width": 147,
+            "Height": 48,
+            "TextId": "__SingleUse_4YLB",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "params_menu_label",
+            "X": 427,
+            "Y": 406,
+            "Width": 147,
+            "Height": 48,
+            "TextId": "__SingleUse_Q789",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dv_menu_label",
+            "X": 671,
+            "Y": 406,
+            "Width": 58,
+            "Height": 48,
+            "TextId": "__SingleUse_SGUD",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Line",
+            "Name": "upper_divider",
+            "Y": 380,
+            "Width": 800,
+            "Height": 8,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndX": 800.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "lower_divider",
+            "Y": 476,
+            "Width": 800,
+            "Height": 8,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndX": 800.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "left_divider",
+            "Y": 380,
+            "Width": 8,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndY": 100.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "middle_left_divider",
+            "X": 198,
+            "Y": 380,
+            "Width": 8,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndY": 100.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "middle_divider",
+            "X": 398,
+            "Y": 380,
+            "Width": 8,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndY": 100.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "middle_right_divider",
+            "X": 598,
+            "Y": 380,
+            "Width": 8,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndY": 100.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "right_divider",
+            "X": 796,
+            "Y": 380,
+            "Width": 8,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndY": 100.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Round"
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "TUfast_2.0",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Main",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      24
+    ],
+    "AvailableLCDs": {
+      "24": "LCDGPU2D"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U599/5A9",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m33",
+    "ProjectFile": "../Riverdi_50STM32U5A9.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [
+      "GPU2D"
+    ],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.24.0",
+  "CreatedBy": "4.24.0"
+}

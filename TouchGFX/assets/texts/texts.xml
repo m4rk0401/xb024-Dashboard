@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_SGUD" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">DV</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q789" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Params</Translation>
+      </Text>
+      <Text Id="__SingleUse_4YLB" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Mission</Translation>
+      </Text>
+      <Text Id="__SingleUse_VLJ8" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Main</Translation>
+      </Text>
+      <Text Id="__SingleUse_3YVU" Alignment="Center" TypographyId="Medium">
+        <Translation Language="GB">Speed Lim</Translation>
+      </Text>
+      <Text Id="__SingleUse_R5CT" Alignment="Center" TypographyId="Medium">
+        <Translation Language="GB">Bat Temp</Translation>
+      </Text>
+      <Text Id="__SingleUse_SAFW" Alignment="Center" TypographyId="Medium">
+        <Translation Language="GB">Power</Translation>
+      </Text>
+      <Text Id="__SingleUse_4ODG" Alignment="Center" TypographyId="Medium">
+        <Translation Language="GB">SDC</Translation>
+      </Text>
+      <Text Id="__SingleUse_N0GM" Alignment="Center" TypographyId="Medium">
+        <Translation Language="GB">Mission</Translation>
+      </Text>
+      <Text Id="__SingleUse_WO5H" Alignment="Center" TypographyId="Medium">
+        <Translation Language="GB">SoC</Translation>
+      </Text>
+      <Text Id="__SingleUse_3FEA" Alignment="Left" TypographyId="data_typo_string">
+        <Translation Language="GB">Front Right</Translation>
+      </Text>
+      <Text Id="__SingleUse_LDZ4" Alignment="Center" TypographyId="data_typo_string">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_ID81" Alignment="Left" TypographyId="data_typo_string">
+        <Translation Language="GB">DV Skid Pad</Translation>
+      </Text>
+      <Text Id="__SingleUse_0L9Y" Alignment="Center" TypographyId="data_typo_string">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_0GBC" Alignment="Left" TypographyId="data_typo_num">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_FRL3" Alignment="Center" TypographyId="data_typo_num">
+        <Translation Language="GB">&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y2ZU" Alignment="Left" TypographyId="data_typo_num">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_VE94" Alignment="Left" TypographyId="data_typo_num">
+        <Translation Language="GB">Data: &lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Medium" Font="verdana.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="data_typo_num" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0-9" WildcardCharacterRanges="0-9" />
+    <Typography Id="data_typo_string" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x07E" />
+  </Typographies>
+</TextDatabase>
