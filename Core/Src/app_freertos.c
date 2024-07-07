@@ -64,6 +64,19 @@ const osMessageQueueAttr_t menuselect_queue_attributes = {
   .name = "menuselect_queue"
 };
 
+/* Definitions for missionrequest_queue */
+osMessageQueueId_t missionrequest_queue_handle;
+const osMessageQueueAttr_t missionrequest_queue_attributes = {
+  .name = "missionrequest_queue"
+};
+
+/* Definitions for missionconfirmed_queue */
+osMessageQueueId_t missionconfirmed_queue_handle;
+const osMessageQueueAttr_t missionconfirmed_queue_attributes = {
+  .name = "missionconfirmed_queue"
+};
+
+
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
 osThreadId_t defaultTaskHandle;
@@ -183,6 +196,8 @@ void MX_FREERTOS_Init(void) {
   /* USER CODE BEGIN RTOS_QUEUES */
   basicinfo_queue_handle = osMessageQueueNew(2, sizeof(dashboard_basicinfo), &basicinfo_queue_attributes);
   menuselect_queue_handle = osMessageQueueNew(2, sizeof(int8_t), &menuselect_queue_attributes);
+  missionrequest_queue_handle = osMessageQueueNew(2, sizeof(uint8_t), &missionrequest_queue_attributes);
+  missionconfirmed_queue_handle = osMessageQueueNew(2, sizeof(uint8_t), &missionconfirmed_queue_attributes);
   /* add queues, ... */
   /* USER CODE END RTOS_QUEUES */
   /* creation of defaultTask */
@@ -216,10 +231,43 @@ void MX_FREERTOS_Init(void) {
 void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN defaultTask */
-  /* Infinite loop */
+	static uint8_t waiting_for_response = 0;
+	static uint8_t tmp_confirmed = 1;
+	static uint8_t mission_idx = (uint8_t) SKIDPAD;	// set mission_idx to init value of dashboard variable also SKIDPAD
+	static CAN_Message mission_request_message;
+
+	/* Infinite loop */
   for(;;)
   {
-    osDelay(1000);
+	  // Check for mission request data
+	  if(osMessageQueueGet(missionrequest_queue_handle, &mission_idx, 0, 0) == osOK)
+	  {
+		  waiting_for_response = 1;
+		  mission_request_message.msg_id = (uint32_t)(0x150);
+		  mission_request_message.data_length = FDCAN_DLC_BYTES_8;
+		  mission_request_message.data[0] = mission_idx;
+		  mission_request_message.data[1] = 0x00;
+		  mission_request_message.data[2] = 0x00;
+		  mission_request_message.data[3] = 0x00;
+		  mission_request_message.data[4] = 0x00;
+		  mission_request_message.data[5] = 0x00;
+		  mission_request_message.data[6] = 0x00;
+		  mission_request_message.data[7] = 0x00;
+		  BSP_CAN_Send_Message(mission_request_message.msg_id, mission_request_message.data_length, mission_request_message.data);
+	  }
+
+	  // Send CAN message as long as VCU didn't confirmed new mission
+	  if(waiting_for_response == 1 && mission_idx != dashboard_basicinfo.mission_val)
+	  {
+		  BSP_CAN_Send_Message(mission_request_message.msg_id, mission_request_message.data_length, mission_request_message.data);
+	  } else if(waiting_for_response == 1 && mission_idx == dashboard_basicinfo.mission_val)
+	  {
+		  osMessageQueuePut(missionconfirmed_queue_handle, &tmp_confirmed, 0, 0);
+
+	  	  waiting_for_response = 0;
+	  }
+
+	  osDelay(200);
   }
   /* USER CODE END defaultTask */
 }

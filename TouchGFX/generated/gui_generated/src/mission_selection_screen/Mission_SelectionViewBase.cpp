@@ -121,11 +121,135 @@ Mission_SelectionViewBase::Mission_SelectionViewBase()
     right_divider.setLineEndingStyle(touchgfx::Line::ROUND_CAP_ENDING);
     add(right_divider);
 
-    mission_selection_label.setXY(271, 15);
-    mission_selection_label.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
-    mission_selection_label.setLinespacing(0);
-    mission_selection_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_Z383));
-    add(mission_selection_label);
+    skidpad_box.setPosition(53, 15, 221, 37);
+    skidpad_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(skidpad_box);
+
+    accel_box.setPosition(53, 64, 221, 37);
+    accel_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(accel_box);
+
+    autox_box.setPosition(53, 115, 221, 37);
+    autox_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(autox_box);
+
+    endu_box.setPosition(53, 169, 221, 37);
+    endu_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(endu_box);
+
+    base_mode_box.setPosition(53, 222, 221, 37);
+    base_mode_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(base_mode_box);
+
+    dv_track_box.setPosition(324, 15, 221, 37);
+    dv_track_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(dv_track_box);
+
+    dv_accel_box.setPosition(324, 64, 221, 37);
+    dv_accel_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(dv_accel_box);
+
+    dv_skidpad_box.setPosition(324, 115, 221, 37);
+    dv_skidpad_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(dv_skidpad_box);
+
+    dv_autox_box.setPosition(324, 169, 221, 37);
+    dv_autox_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(dv_autox_box);
+
+    dv_ebs_test_box.setPosition(324, 222, 221, 37);
+    dv_ebs_test_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(dv_ebs_test_box);
+
+    brake_test_box.setPosition(574, 16, 221, 37);
+    brake_test_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(brake_test_box);
+
+    ev_scruti_box.setPosition(575, 64, 221, 37);
+    ev_scruti_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(ev_scruti_box);
+
+    dv_insp_box.setPosition(574, 115, 221, 37);
+    dv_insp_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(dv_insp_box);
+
+    skidpad_label.setXY(53, 16);
+    skidpad_label.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    skidpad_label.setLinespacing(0);
+    skidpad_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_NNWY));
+    add(skidpad_label);
+
+    accel_label.setXY(53, 65);
+    accel_label.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    accel_label.setLinespacing(0);
+    accel_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_279T));
+    add(accel_label);
+
+    autox_label.setXY(53, 115);
+    autox_label.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    autox_label.setLinespacing(0);
+    autox_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_O3U9));
+    add(autox_label);
+
+    endu_label.setXY(53, 169);
+    endu_label.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    endu_label.setLinespacing(0);
+    endu_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_5UFM));
+    add(endu_label);
+
+    base_mode_label.setXY(53, 222);
+    base_mode_label.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    base_mode_label.setLinespacing(0);
+    base_mode_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_QOUL));
+    add(base_mode_label);
+
+    dv_track_label.setXY(324, 16);
+    dv_track_label.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    dv_track_label.setLinespacing(0);
+    dv_track_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_82VU));
+    add(dv_track_label);
+
+    dv_accel_label.setXY(324, 65);
+    dv_accel_label.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    dv_accel_label.setLinespacing(0);
+    dv_accel_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_Z122));
+    add(dv_accel_label);
+
+    dv_skidpad_label.setXY(324, 115);
+    dv_skidpad_label.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    dv_skidpad_label.setLinespacing(0);
+    dv_skidpad_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_NVDW));
+    add(dv_skidpad_label);
+
+    dv_autox_label.setXY(324, 169);
+    dv_autox_label.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    dv_autox_label.setLinespacing(0);
+    dv_autox_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_9KQ1));
+    add(dv_autox_label);
+
+    dv_ebs_test_label.setXY(324, 222);
+    dv_ebs_test_label.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    dv_ebs_test_label.setLinespacing(0);
+    dv_ebs_test_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_M34O));
+    add(dv_ebs_test_label);
+
+    brake_test_label.setXY(574, 16);
+    brake_test_label.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    brake_test_label.setLinespacing(0);
+    brake_test_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_NLGA));
+    add(brake_test_label);
+
+    ev_scruti_label.setXY(574, 65);
+    ev_scruti_label.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    ev_scruti_label.setLinespacing(0);
+    ev_scruti_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_O9LO));
+    add(ev_scruti_label);
+
+    dv_insp_label.setXY(574, 115);
+    dv_insp_label.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    dv_insp_label.setLinespacing(0);
+    dv_insp_label.setTypedText(touchgfx::TypedText(T___SINGLEUSE_Y2L8));
+    add(dv_insp_label);
 }
 
 Mission_SelectionViewBase::~Mission_SelectionViewBase()

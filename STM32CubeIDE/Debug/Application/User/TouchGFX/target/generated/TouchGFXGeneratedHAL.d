@@ -148,6 +148,14 @@ Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o: \
  ../../TouchGFX/gui/include/gui/mission_selection_screen/Mission_SelectionView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/mission_selection_screen/Mission_SelectionViewBase.hpp \
  ../../TouchGFX/gui/include/gui/mission_selection_screen/Mission_SelectionPresenter.hpp \
+ ../../TouchGFX/gui/include/gui/precharge_screen/PrechargeView.hpp \
+ ../../TouchGFX/generated/gui_generated/include/gui_generated/precharge_screen/PrechargeViewBase.hpp \
+ ../../TouchGFX/gui/include/gui/precharge_screen/PrechargePresenter.hpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/BoxWithBorder.hpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators/BoxProgress.hpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractDirectionProgress.hpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/GPIO.hpp
 ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:
 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/include/touchgfx_nema/HALGPU2D.hpp:
@@ -297,4 +305,12 @@ Application/User/TouchGFX/target/generated/TouchGFXGeneratedHAL.o: \
 ../../TouchGFX/gui/include/gui/mission_selection_screen/Mission_SelectionView.hpp:
 ../../TouchGFX/generated/gui_generated/include/gui_generated/mission_selection_screen/Mission_SelectionViewBase.hpp:
 ../../TouchGFX/gui/include/gui/mission_selection_screen/Mission_SelectionPresenter.hpp:
+../../TouchGFX/gui/include/gui/precharge_screen/PrechargeView.hpp:
+../../TouchGFX/generated/gui_generated/include/gui_generated/precharge_screen/PrechargeViewBase.hpp:
+../../TouchGFX/gui/include/gui/precharge_screen/PrechargePresenter.hpp:
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/BoxWithBorder.hpp:
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators/BoxProgress.hpp:
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractDirectionProgress.hpp:
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp:
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/GPIO.hpp:

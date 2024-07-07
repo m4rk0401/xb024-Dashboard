@@ -196,6 +196,18 @@
     <Filter Include="Source Files\generated\gui_generated\mission_selection_screen">
       <UniqueIdentifier>55E60A85-2084-D4D4-FAA2-B129161FAACA</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\gui\precharge_screen">
+      <UniqueIdentifier>1E37F434-400B-D83F-38AE-2AAA2FCBDA3B</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\precharge_screen">
+      <UniqueIdentifier>676DDA71-E5A6-4C20-2481-B847B2176E15</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\precharge_screen">
+      <UniqueIdentifier>988547EF-D28B-E004-506F-052B677F4B28</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\precharge_screen">
+      <UniqueIdentifier>4E0AC915-4073-5769-29D7-6FA6DDAD6A35</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDL2TouchController.cpp">
@@ -245,6 +257,15 @@
     </ClCompile>
     <ClCompile Include="..\..\generated\gui_generated\src\mission_selection_screen\Mission_SelectionViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\mission_selection_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\precharge_screen\PrechargePresenter.cpp">
+      <Filter>Source Files\gui\precharge_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\precharge_screen\PrechargeView.cpp">
+      <Filter>Source Files\gui\precharge_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\precharge_screen\PrechargeViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\precharge_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -705,6 +726,15 @@
     </ClInclude>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\mission_selection_screen\Mission_SelectionViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\mission_selection_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\precharge_screen\PrechargePresenter.hpp">
+      <Filter>Header Files\gui\precharge_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\precharge_screen\PrechargeView.hpp">
+      <Filter>Header Files\gui\precharge_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\precharge_screen\PrechargeViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\precharge_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -27,6 +27,9 @@
     <ClCompile Include="..\..\gui\src\mission_selection_screen\Mission_SelectionPresenter.cpp"/>
     <ClCompile Include="..\..\gui\src\mission_selection_screen\Mission_SelectionView.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\mission_selection_screen\Mission_SelectionViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\precharge_screen\PrechargePresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\precharge_screen\PrechargeView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\precharge_screen\PrechargeViewBase.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(ApplicationRoot)\assets\texts\texts.xml"/>
@@ -183,6 +186,9 @@
     <ClInclude Include="..\..\gui\include\gui\mission_selection_screen\Mission_SelectionPresenter.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\mission_selection_screen\Mission_SelectionView.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\mission_selection_screen\Mission_SelectionViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\precharge_screen\PrechargePresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\precharge_screen\PrechargeView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\precharge_screen\PrechargeViewBase.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

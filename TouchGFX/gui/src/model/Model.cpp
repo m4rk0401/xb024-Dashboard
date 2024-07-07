@@ -9,6 +9,8 @@ extern "C"
 	extern osMessageQueueId_t test_queueHandle;
 	extern osMessageQueueId_t basicinfo_queue_handle;
 	extern osMessageQueueId_t menuselect_queue_handle;
+	extern osMessageQueueId_t missionrequest_queue_handle;
+	extern osMessageQueueId_t missionconfirmed_queue_handle;
 }
 #endif
 
@@ -38,10 +40,22 @@ void Model::tick()
 	{
 		modelListener->button_action(menu_direction);
 	}
+
+	static uint8_t mission_confirmed;
+	if(osMessageQueueGet(missionconfirmed_queue_handle, &mission_confirmed, 0, 0) == osOK)
+	{
+		modelListener->confirm_mission();
+	}
+
 	#endif
 }
 
 void Model::set_current_screen(Screen screen_idx)
 {
 	current_screen = screen_idx;
+}
+
+void Model::request_mission(uint8_t mission_idx)
+{
+	osMessageQueuePut(missionrequest_queue_handle, &mission_idx, 0, 0);
 }

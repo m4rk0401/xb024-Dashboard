@@ -13,9 +13,12 @@ public:
     virtual void tearDownScreen();
 
     virtual void button_action(int8_t button_event);
+    virtual void confirm_mission(void);
 protected:
 
 private:
+    Mission selected_mission;
+
     enum MenuBar
 	{
 		MAIN,
@@ -25,6 +28,10 @@ private:
 	} selected_menu_item;
 
 	void set_menu_item(MenuBar menu_item);
+
+	void next_mission(void);
+	void prev_mission(void);
+	void set_mission_item(Mission mission_idx);
 };
 
 #endif // MISSION_SELECTIONVIEW_HPP

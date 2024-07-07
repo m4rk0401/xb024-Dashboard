@@ -1,3 +1,4 @@
-C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/model/Model.cpp:15:1:Model::Model()	1
-C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/model/Model.cpp:20:6:void Model::tick()	4
-C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/model/Model.cpp:44:6:void Model::set_current_screen(Screen)	1
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/model/Model.cpp:17:1:Model::Model()	1
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/model/Model.cpp:22:6:void Model::tick()	5
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/model/Model.cpp:53:6:void Model::set_current_screen(Screen)	1
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/model/Model.cpp:58:6:void Model::request_mission(uint8_t)	1

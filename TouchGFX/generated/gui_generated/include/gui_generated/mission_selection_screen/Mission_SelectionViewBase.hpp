@@ -56,7 +56,32 @@ protected:
     touchgfx::PainterRGB888 middle_right_dividerPainter;
     touchgfx::Line right_divider;
     touchgfx::PainterRGB888 right_dividerPainter;
-    touchgfx::TextArea mission_selection_label;
+    touchgfx::Box skidpad_box;
+    touchgfx::Box accel_box;
+    touchgfx::Box autox_box;
+    touchgfx::Box endu_box;
+    touchgfx::Box base_mode_box;
+    touchgfx::Box dv_track_box;
+    touchgfx::Box dv_accel_box;
+    touchgfx::Box dv_skidpad_box;
+    touchgfx::Box dv_autox_box;
+    touchgfx::Box dv_ebs_test_box;
+    touchgfx::Box brake_test_box;
+    touchgfx::Box ev_scruti_box;
+    touchgfx::Box dv_insp_box;
+    touchgfx::TextArea skidpad_label;
+    touchgfx::TextArea accel_label;
+    touchgfx::TextArea autox_label;
+    touchgfx::TextArea endu_label;
+    touchgfx::TextArea base_mode_label;
+    touchgfx::TextArea dv_track_label;
+    touchgfx::TextArea dv_accel_label;
+    touchgfx::TextArea dv_skidpad_label;
+    touchgfx::TextArea dv_autox_label;
+    touchgfx::TextArea dv_ebs_test_label;
+    touchgfx::TextArea brake_test_label;
+    touchgfx::TextArea ev_scruti_label;
+    touchgfx::TextArea dv_insp_label;
 
 private:
 

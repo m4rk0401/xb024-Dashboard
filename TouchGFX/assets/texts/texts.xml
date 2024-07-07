@@ -6,6 +6,54 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_G7E5" Alignment="Left" TypographyId="data_typo_string">
+        <Translation Language="GB">600</Translation>
+      </Text>
+      <Text Id="__SingleUse_BV9O" Alignment="Center" TypographyId="data_typo_string">
+        <Translation Language="GB">Volt: &lt;value&gt; V</Translation>
+      </Text>
+      <Text Id="__SingleUse_DDG0" Alignment="Center" TypographyId="Medium">
+        <Translation Language="GB">Precharge</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y2L8" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">DV Insp</Translation>
+      </Text>
+      <Text Id="__SingleUse_O9LO" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">EV Scruti</Translation>
+      </Text>
+      <Text Id="__SingleUse_NLGA" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">Brake Test</Translation>
+      </Text>
+      <Text Id="__SingleUse_M34O" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">DV EBS Test</Translation>
+      </Text>
+      <Text Id="__SingleUse_9KQ1" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">DV AutoX</Translation>
+      </Text>
+      <Text Id="__SingleUse_NVDW" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">DV Skid Pad</Translation>
+      </Text>
+      <Text Id="__SingleUse_Z122" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">DV Accel</Translation>
+      </Text>
+      <Text Id="__SingleUse_82VU" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">DV Track</Translation>
+      </Text>
+      <Text Id="__SingleUse_QOUL" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">Base Mode</Translation>
+      </Text>
+      <Text Id="__SingleUse_5UFM" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">Endu</Translation>
+      </Text>
+      <Text Id="__SingleUse_O3U9" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">AutoX</Translation>
+      </Text>
+      <Text Id="__SingleUse_279T" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">Accel</Translation>
+      </Text>
+      <Text Id="__SingleUse_NNWY" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">Skid Pad</Translation>
+      </Text>
       <Text Id="__SingleUse_Q1E2" Alignment="Center" TypographyId="Large">
         <Translation Language="GB">Main</Translation>
       </Text>

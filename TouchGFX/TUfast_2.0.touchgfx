@@ -699,6 +699,318 @@
             "EndY": 100.0,
             "LineWidth": 8.0,
             "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Box",
+            "Name": "skidpad_box",
+            "X": 53,
+            "Y": 15,
+            "Width": 221,
+            "Height": 37,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "accel_box",
+            "X": 53,
+            "Y": 64,
+            "Width": 221,
+            "Height": 37,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "autox_box",
+            "X": 53,
+            "Y": 115,
+            "Width": 221,
+            "Height": 37,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "endu_box",
+            "X": 53,
+            "Y": 169,
+            "Width": 221,
+            "Height": 37,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "base_mode_box",
+            "X": 53,
+            "Y": 222,
+            "Width": 221,
+            "Height": 37,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "dv_track_box",
+            "X": 324,
+            "Y": 15,
+            "Width": 221,
+            "Height": 37,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "dv_accel_box",
+            "X": 324,
+            "Y": 64,
+            "Width": 221,
+            "Height": 37,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "dv_skidpad_box",
+            "X": 324,
+            "Y": 115,
+            "Width": 221,
+            "Height": 37,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "dv_autox_box",
+            "X": 324,
+            "Y": 169,
+            "Width": 221,
+            "Height": 37,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "dv_ebs_test_box",
+            "X": 324,
+            "Y": 222,
+            "Width": 221,
+            "Height": 37,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "brake_test_box",
+            "X": 574,
+            "Y": 16,
+            "Width": 221,
+            "Height": 37,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "ev_scruti_box",
+            "X": 575,
+            "Y": 64,
+            "Width": 221,
+            "Height": 37,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "dv_insp_box",
+            "X": 574,
+            "Y": 115,
+            "Width": 221,
+            "Height": 37,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "skidpad_label",
+            "X": 53,
+            "Y": 16,
+            "Width": 131,
+            "Height": 36,
+            "TextId": "__SingleUse_NNWY",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "accel_label",
+            "X": 53,
+            "Y": 65,
+            "Width": 79,
+            "Height": 36,
+            "TextId": "__SingleUse_279T",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "autox_label",
+            "X": 53,
+            "Y": 115,
+            "Width": 91,
+            "Height": 36,
+            "TextId": "__SingleUse_O3U9",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "endu_label",
+            "X": 53,
+            "Y": 169,
+            "Width": 76,
+            "Height": 36,
+            "TextId": "__SingleUse_5UFM",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "base_mode_label",
+            "X": 53,
+            "Y": 222,
+            "Width": 164,
+            "Height": 36,
+            "TextId": "__SingleUse_QOUL",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dv_track_label",
+            "X": 324,
+            "Y": 16,
+            "Width": 134,
+            "Height": 36,
+            "TextId": "__SingleUse_82VU",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dv_accel_label",
+            "X": 324,
+            "Y": 65,
+            "Width": 134,
+            "Height": 36,
+            "TextId": "__SingleUse_Z122",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dv_skidpad_label",
+            "X": 324,
+            "Y": 115,
+            "Width": 186,
+            "Height": 36,
+            "TextId": "__SingleUse_NVDW",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dv_autox_label",
+            "X": 324,
+            "Y": 169,
+            "Width": 146,
+            "Height": 36,
+            "TextId": "__SingleUse_9KQ1",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dv_ebs_test_label",
+            "X": 324,
+            "Y": 222,
+            "Width": 188,
+            "Height": 36,
+            "TextId": "__SingleUse_M34O",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "brake_test_label",
+            "X": 574,
+            "Y": 16,
+            "Width": 159,
+            "Height": 36,
+            "TextId": "__SingleUse_NLGA",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ev_scruti_label",
+            "X": 574,
+            "Y": 65,
+            "Width": 140,
+            "Height": 36,
+            "TextId": "__SingleUse_O9LO",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dv_insp_label",
+            "X": 574,
+            "Y": 115,
+            "Width": 122,
+            "Height": 36,
+            "TextId": "__SingleUse_Y2L8",
+            "TextRotation": "0",
+            "AutoSize": true
           }
         ],
         "Interactions": [
@@ -722,6 +1034,81 @@
             "Description": "Called from user code to switch to Main screen"
           }
         ]
+      },
+      {
+        "Name": "Precharge",
+        "Components": [
+          {
+            "Type": "BoxWithBorder",
+            "Name": "background",
+            "Width": 800,
+            "Height": 480,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderColor": {
+              "Red": 93,
+              "Blue": 255
+            },
+            "BorderSize": 15
+          },
+          {
+            "Type": "TextArea",
+            "Name": "title",
+            "X": 324,
+            "Y": 33,
+            "Width": 152,
+            "Height": 36,
+            "TextId": "__SingleUse_DDG0",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Box",
+            "Name": "precharge_border",
+            "X": 196,
+            "Y": 216,
+            "Width": 408,
+            "Height": 48
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "precharge_progress",
+            "X": 200,
+            "Y": 220,
+            "Width": 400,
+            "Height": 40,
+            "Color": {
+              "Red": 4,
+              "Green": 219
+            },
+            "Direction": "Right",
+            "FileNameBackground": "precharge_bar.png",
+            "IndicatorPositionWidth": 400,
+            "IndicatorPositionHeight": 40,
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 50
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 288,
+            "Y": 139,
+            "Width": 224,
+            "Height": 48,
+            "TextId": "__SingleUse_BV9O",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_G7E5",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          }
+        ],
+        "Interactions": []
       }
     ],
     "CustomContainerDefinitions": [],

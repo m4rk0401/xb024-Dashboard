@@ -1,6 +1,8 @@
 #ifndef MODEL_HPP
 #define MODEL_HPP
 
+#include <stdint.h>
+
 class ModelListener;
 
 class Model
@@ -23,6 +25,8 @@ public:
     };
 
     void set_current_screen(Screen screen_idx);
+
+    void request_mission(uint8_t mission_idx);
 
 protected:
     ModelListener* modelListener;

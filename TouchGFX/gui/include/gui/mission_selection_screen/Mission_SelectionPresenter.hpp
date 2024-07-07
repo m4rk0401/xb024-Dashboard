@@ -28,8 +28,10 @@ public:
     virtual ~Mission_SelectionPresenter() {}
 
     virtual void set_current_screen(Model::Screen screen_idx);
+    virtual void request_mission(uint8_t mission_idx);
 
     virtual void button_action(int8_t button_event);
+    virtual void confirm_mission(void);
 
 private:
     Mission_SelectionPresenter();
