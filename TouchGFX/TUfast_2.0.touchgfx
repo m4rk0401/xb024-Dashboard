@@ -464,7 +464,27 @@
             "LineEndingStyle": "Round"
           }
         ],
-        "Interactions": []
+        "Interactions": [
+          {
+            "InteractionName": "SwitchScreenToMission",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Main goToMissionScreen"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "Mission_Selection"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "goToMissionScreen",
+            "Description": "Called from user code to switch to Mission screen"
+          }
+        ]
       },
       {
         "Name": "Mission_Selection",
@@ -679,25 +699,29 @@
             "EndY": 100.0,
             "LineWidth": 8.0,
             "LineEndingStyle": "Round"
-          },
-          {
-            "Type": "TextArea",
-            "Name": "mission_selection_label",
-            "X": 271,
-            "Y": 15,
-            "Width": 259,
-            "Height": 36,
-            "TextId": "__SingleUse_Z383",
-            "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "AutoSize": true
           }
         ],
-        "Interactions": []
+        "Interactions": [
+          {
+            "InteractionName": "SwitchScreenToMain",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Mission_Selection goToMainScreen"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "Main"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "goToMainScreen",
+            "Description": "Called from user code to switch to Main screen"
+          }
+        ]
       }
     ],
     "CustomContainerDefinitions": [],

@@ -23,6 +23,11 @@ public:
     // Main
     void gotoMainScreenNoTransition();
 
+    void gotoMainScreenWipeTransitionSouth();
+
+    // Mission_Selection
+    void gotoMission_SelectionScreenWipeTransitionSouth();
+
 protected:
     touchgfx::Callback<FrontendApplicationBase> transitionCallback;
     FrontendHeap& frontendHeap;
@@ -30,6 +35,11 @@ protected:
 
     // Main
     void gotoMainScreenNoTransitionImpl();
+
+    void gotoMainScreenWipeTransitionSouthImpl();
+
+    // Mission_Selection
+    void gotoMission_SelectionScreenWipeTransitionSouthImpl();
 };
 
 #endif // FRONTENDAPPLICATIONBASE_HPP

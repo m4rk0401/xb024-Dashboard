@@ -137,3 +137,11 @@ void Mission_SelectionViewBase::setupScreen()
 {
 
 }
+
+void Mission_SelectionViewBase::goToMainScreen()
+{
+    //SwitchScreenToMain
+    //When goToMainScreen is called change screen to Main
+    //Go to Main with screen transition towards South
+    application().gotoMainScreenWipeTransitionSouth();
+}

@@ -1,7 +1,7 @@
 #include <gui/main_screen/MainView.hpp>
 #include <touchgfx/Color.hpp>
 
-MainView::MainView()
+MainView::MainView() : selected_menu_item(MAIN)
 {
 
 }
@@ -84,7 +84,76 @@ void MainView::set_basicinfo(DASHBOARD_BASICINFO basicinfo)
 
 }
 
-void MainView::set_menu_item(Model::Screen menu_item)
+void MainView::button_action(int8_t button_event)
+{
+	/* -1 = button left
+	 * 0 = button select
+	 * 1 = button right
+	 */
+
+	if(button_event == -1)
+	{
+		switch(selected_menu_item)
+		{
+		case MAIN:
+			selected_menu_item = DV;
+			break;
+		case MISSION:
+			selected_menu_item = MAIN;
+			break;
+		case PARAMS:
+			selected_menu_item = MISSION;
+			break;
+		case DV:
+			selected_menu_item = PARAMS;
+			break;
+		default:
+			break;
+		}
+
+		set_menu_item(selected_menu_item);
+	} else if(button_event == 1) {
+		switch(selected_menu_item)
+		{
+		case MAIN:
+			selected_menu_item = MISSION;
+			break;
+		case MISSION:
+			selected_menu_item = PARAMS;
+			break;
+		case PARAMS:
+			selected_menu_item = DV;
+			break;
+		case DV:
+			selected_menu_item = MAIN;
+			break;
+		default:
+			break;
+		}
+
+		set_menu_item(selected_menu_item);
+	} else if(button_event == 0) {
+		switch(selected_menu_item)
+		{
+		case MAIN:
+			// TODO: add to do some stuff in screen
+			break;
+		case MISSION:
+			goToMissionScreen();
+			break;
+		case PARAMS:
+			// TODO: add switch screen
+			break;
+		case DV:
+			// TODO: add switch screen
+			break;
+		default:
+			break;
+		}
+	}
+}
+
+void MainView::set_menu_item(MenuBar menu_item)
 {
 	// Reset all
 	main_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
@@ -94,16 +163,16 @@ void MainView::set_menu_item(Model::Screen menu_item)
 
 	switch(menu_item)
 	{
-	case Model::Screen::MAIN:
+	case MAIN:
 		main_box.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
 		break;
-	case Model::Screen::MISSION:
+	case MISSION:
 		mission_box.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
 		break;
-	case Model::Screen::PARAMS:
+	case PARAMS:
 		params_box.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
 		break;
-	case Model::Screen::DV:
+	case DV:
 		dv_box.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
 		break;
 	default:

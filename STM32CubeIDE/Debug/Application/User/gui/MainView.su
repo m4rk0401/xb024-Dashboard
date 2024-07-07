@@ -15,4 +15,5 @@ C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainView.cpp:9:6:vir
 C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainView.cpp:26:6:virtual void MainView::tearDownScreen()	16	static
 C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainView.cpp:31:6:virtual void MainView::set_new_value(int)	16	static
 C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainView.cpp:37:6:virtual void MainView::set_basicinfo(DASHBOARD_BASICINFO)	152	static
-C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainView.cpp:87:6:virtual void MainView::set_menu_item(Model::Screen)	80	static
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainView.cpp:87:6:virtual void MainView::button_action(int8_t)	16	static
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainView.cpp:156:6:void MainView::set_menu_item(MenuBar)	80	static

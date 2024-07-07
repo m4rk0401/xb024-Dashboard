@@ -9,7 +9,7 @@
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:22:18:virtual void ModelListener::set_current_screen(Model::Screen)	1
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:24:18:virtual void ModelListener::set_new_value(int)	1
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:25:18:virtual void ModelListener::set_basicinfo(DASHBOARD_BASICINFO)	1
-../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::set_menu_item(Model::Screen)	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:27:18:virtual void ModelListener::button_action(int8_t)	1
 ../../TouchGFX/gui/include/gui/main_screen/MainPresenter.hpp:28:13:MainPresenter::~MainPresenter()	1
 ../../TouchGFX/gui/include/gui/main_screen/MainPresenter.hpp:28:13:virtual MainPresenter::~MainPresenter()	1
 C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainPresenter.cpp:4:1:MainPresenter::MainPresenter(MainView&)	1
@@ -18,4 +18,4 @@ C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainPresenter.cpp:15
 C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainPresenter.cpp:20:6:virtual void MainPresenter::set_current_screen(Model::Screen)	1
 C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainPresenter.cpp:25:6:virtual void MainPresenter::set_new_value(int)	1
 C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainPresenter.cpp:30:6:virtual void MainPresenter::set_basicinfo(DASHBOARD_BASICINFO)	1
-C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainPresenter.cpp:35:6:virtual void MainPresenter::set_menu_item(Model::Screen)	1
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/gui/src/main_screen/MainPresenter.cpp:35:6:virtual void MainPresenter::button_action(int8_t)	1

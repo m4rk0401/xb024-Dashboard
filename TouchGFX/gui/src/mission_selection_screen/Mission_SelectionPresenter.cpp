@@ -21,3 +21,8 @@ void Mission_SelectionPresenter::set_current_screen(Model::Screen screen_idx)
 {
 	model->set_current_screen(screen_idx);
 }
+
+void Mission_SelectionPresenter::button_action(int8_t button_event)
+{
+	view.button_action(button_event);
+}

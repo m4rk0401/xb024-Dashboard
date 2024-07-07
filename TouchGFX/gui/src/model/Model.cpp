@@ -12,7 +12,7 @@ extern "C"
 }
 #endif
 
-Model::Model() : modelListener(0), current_screen(MAIN), menu_selection_item(MAIN)
+Model::Model() : modelListener(0), current_screen(MAIN)
 {
 
 }
@@ -36,48 +36,7 @@ void Model::tick()
 	static int8_t menu_direction;
 	if(osMessageQueueGet(menuselect_queue_handle, &menu_direction, 0, 0) == osOK)
 	{
-		// Iterate left
-		if(menu_direction == -1)
-		{
-			switch(menu_selection_item)
-			{
-			case MAIN:
-				menu_selection_item = DV;
-				break;
-			case MISSION:
-				menu_selection_item = MAIN;
-				break;
-			case PARAMS:
-				menu_selection_item = MISSION;
-				break;
-			case DV:
-				menu_selection_item = PARAMS;
-				break;
-			default:
-				break;
-			}
-		// Iterate right
-		} else if(menu_direction == 1)
-		{
-			switch(menu_selection_item)
-			{
-			case MAIN:
-				menu_selection_item = MISSION;
-				break;
-			case MISSION:
-				menu_selection_item = PARAMS;
-				break;
-			case PARAMS:
-				menu_selection_item = DV;
-				break;
-			case DV:
-				menu_selection_item = MAIN;
-				break;
-			default:
-				break;
-			}
-		}
-		modelListener->set_menu_item(menu_selection_item);
+		modelListener->button_action(menu_direction);
 	}
 	#endif
 }

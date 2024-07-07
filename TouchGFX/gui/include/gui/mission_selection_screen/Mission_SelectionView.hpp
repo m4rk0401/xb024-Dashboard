@@ -12,9 +12,19 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
 
-    virtual void menu_left();
-	virtual void menu_right();
+    virtual void button_action(int8_t button_event);
 protected:
+
+private:
+    enum MenuBar
+	{
+		MAIN,
+		MISSION,
+		PARAMS,
+		DV
+	} selected_menu_item;
+
+	void set_menu_item(MenuBar menu_item);
 };
 
 #endif // MISSION_SELECTIONVIEW_HPP

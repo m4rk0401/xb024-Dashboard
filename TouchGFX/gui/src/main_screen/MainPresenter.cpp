@@ -32,7 +32,7 @@ void MainPresenter::set_basicinfo(DASHBOARD_BASICINFO basicinfo)
 	view.set_basicinfo(basicinfo);
 }
 
-void MainPresenter::set_menu_item(Model::Screen menu_item)
+void MainPresenter::button_action(int8_t button_event)
 {
-	view.set_menu_item(menu_item);
+	view.button_action(button_event);
 }

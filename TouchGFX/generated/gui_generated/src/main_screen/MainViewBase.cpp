@@ -239,3 +239,11 @@ void MainViewBase::setupScreen()
 {
 
 }
+
+void MainViewBase::goToMissionScreen()
+{
+    //SwitchScreenToMission
+    //When goToMissionScreen is called change screen to Mission_Selection
+    //Go to Mission_Selection with screen transition towards South
+    application().gotoMission_SelectionScreenWipeTransitionSouth();
+}

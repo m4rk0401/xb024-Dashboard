@@ -29,6 +29,8 @@ public:
 
     virtual void set_current_screen(Model::Screen screen_idx);
 
+    virtual void button_action(int8_t button_event);
+
 private:
     Mission_SelectionPresenter();
 

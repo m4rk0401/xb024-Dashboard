@@ -85,12 +85,14 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB888.hpp:42:5:touchgfx::PainterRGB888::PainterRGB888(touchgfx::colortype)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB888.hpp:47:18:virtual void touchgfx::PainterRGB888::setColor(touchgfx::colortype)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:262:10:void touchgfx::Line::setLineWidth(touchgfx::CWRUtil::Q5)	2
+../../TouchGFX/generated/gui_generated/include/gui_generated/main_screen/MainViewBase.hpp:30:26:FrontendApplication& MainViewBase::application()	1
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<MainPresenter>::~View()	1
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<MainPresenter>::~View()	1
 C:/TouchGFXProjects/TUfast_2.0/TouchGFX/generated/gui_generated/src/main_screen/MainViewBase.cpp:9:1:MainViewBase::MainViewBase()	1
 C:/TouchGFXProjects/TUfast_2.0/TouchGFX/generated/gui_generated/src/main_screen/MainViewBase.cpp:233:1:MainViewBase::~MainViewBase()	1
 C:/TouchGFXProjects/TUfast_2.0/TouchGFX/generated/gui_generated/src/main_screen/MainViewBase.cpp:233:1:virtual MainViewBase::~MainViewBase()	1
 C:/TouchGFXProjects/TUfast_2.0/TouchGFX/generated/gui_generated/src/main_screen/MainViewBase.cpp:238:6:virtual void MainViewBase::setupScreen()	1
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/generated/gui_generated/src/main_screen/MainViewBase.cpp:243:6:virtual void MainViewBase::goToMissionScreen()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Circle.hpp:100:10:void touchgfx::Circle::setCenter(T, T) [with T = int]	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Circle.hpp:195:10:void touchgfx::Circle::setArc(T, T) [with T = int]	1
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = MainPresenter]	1

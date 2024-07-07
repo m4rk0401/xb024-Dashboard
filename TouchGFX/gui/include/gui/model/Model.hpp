@@ -29,7 +29,6 @@ protected:
 
 private:
     Screen current_screen;
-    Screen menu_selection_item;
 };
 
 #endif // MODEL_HPP
