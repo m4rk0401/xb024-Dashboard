@@ -140,6 +140,9 @@ Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB888.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp \
+ ../../TouchGFX/gui/include/gui/mission_selection_screen/Mission_SelectionView.hpp \
+ ../../TouchGFX/generated/gui_generated/include/gui_generated/mission_selection_screen/Mission_SelectionViewBase.hpp \
+ ../../TouchGFX/gui/include/gui/mission_selection_screen/Mission_SelectionPresenter.hpp \
  ../../TouchGFX/generated/images/include/BitmapDatabase.hpp \
  ../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp \
  ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/include/touchgfx_nema/LCDGPU2D.hpp \
@@ -296,6 +299,9 @@ Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB888.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:
+../../TouchGFX/gui/include/gui/mission_selection_screen/Mission_SelectionView.hpp:
+../../TouchGFX/generated/gui_generated/include/gui_generated/mission_selection_screen/Mission_SelectionViewBase.hpp:
+../../TouchGFX/gui/include/gui/mission_selection_screen/Mission_SelectionPresenter.hpp:
 ../../TouchGFX/generated/images/include/BitmapDatabase.hpp:
 ../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp:
 ../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/include/touchgfx_nema/LCDGPU2D.hpp:

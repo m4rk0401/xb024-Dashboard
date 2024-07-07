@@ -6,6 +6,21 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_Q1E2" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Main</Translation>
+      </Text>
+      <Text Id="__SingleUse_9TD5" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Mission</Translation>
+      </Text>
+      <Text Id="__SingleUse_CTGT" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Params</Translation>
+      </Text>
+      <Text Id="__SingleUse_F91R" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">DV</Translation>
+      </Text>
+      <Text Id="__SingleUse_Z383" Alignment="Left" TypographyId="Medium">
+        <Translation Language="GB">Mission Selection</Translation>
+      </Text>
       <Text Id="__SingleUse_SGUD" Alignment="Center" TypographyId="Large">
         <Translation Language="GB">DV</Translation>
       </Text>
@@ -52,7 +67,7 @@
         <Translation Language="GB">000</Translation>
       </Text>
       <Text Id="__SingleUse_FRL3" Alignment="Center" TypographyId="data_typo_num">
-        <Translation Language="GB">&lt;value&gt;%</Translation>
+        <Translation Language="GB">&lt;value&gt; %</Translation>
       </Text>
       <Text Id="__SingleUse_Y2ZU" Alignment="Left" TypographyId="data_typo_num">
         <Translation Language="GB">000</Translation>

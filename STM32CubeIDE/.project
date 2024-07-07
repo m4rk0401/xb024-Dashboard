@@ -570,6 +570,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/main_screen/MainView.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/gui/Mission_SelectionPresenter.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/mission_selection_screen/Mission_SelectionPresenter.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/Mission_SelectionView.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/mission_selection_screen/Mission_SelectionView.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/gui/Model.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/model/Model.cpp</locationURI>
@@ -673,6 +683,11 @@
 			<name>Application/User/generated/MainViewBase.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/main_screen/MainViewBase.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Mission_SelectionViewBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/mission_selection_screen/Mission_SelectionViewBase.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/BitmapDatabase.cpp</name>

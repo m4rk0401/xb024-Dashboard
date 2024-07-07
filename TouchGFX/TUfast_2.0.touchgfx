@@ -35,9 +35,9 @@
           {
             "Type": "TextArea",
             "Name": "soc_val",
-            "X": 212,
+            "X": 205,
             "Y": 48,
-            "Width": 118,
+            "Width": 132,
             "Height": 48,
             "TextId": "__SingleUse_FRL3",
             "TextRotation": "0",
@@ -167,7 +167,7 @@
           },
           {
             "Type": "Box",
-            "Name": "box2",
+            "Name": "main_box",
             "Y": 380,
             "Width": 200,
             "Height": 100,
@@ -179,7 +179,7 @@
           },
           {
             "Type": "Box",
-            "Name": "box2_1",
+            "Name": "mission_box",
             "X": 200,
             "Y": 380,
             "Width": 200,
@@ -192,7 +192,7 @@
           },
           {
             "Type": "Box",
-            "Name": "box2_2",
+            "Name": "params_box",
             "X": 400,
             "Y": 380,
             "Width": 200,
@@ -205,7 +205,7 @@
           },
           {
             "Type": "Box",
-            "Name": "box2_3",
+            "Name": "dv_box",
             "X": 600,
             "Y": 380,
             "Width": 200,
@@ -462,6 +462,239 @@
             "EndY": 100.0,
             "LineWidth": 8.0,
             "LineEndingStyle": "Round"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Mission_Selection",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 800,
+            "Height": 480
+          },
+          {
+            "Type": "Box",
+            "Name": "main_box",
+            "Y": 380,
+            "Width": 200,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "mission_box",
+            "X": 200,
+            "Y": 380,
+            "Width": 200,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "params_box",
+            "X": 400,
+            "Y": 380,
+            "Width": 200,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "dv_box",
+            "X": 600,
+            "Y": 380,
+            "Width": 200,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 104,
+              "Blue": 1
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "main_menu_label",
+            "X": 53,
+            "Y": 406,
+            "Width": 94,
+            "Height": 48,
+            "TextId": "__SingleUse_Q1E2",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "mission_menu_label",
+            "X": 227,
+            "Y": 406,
+            "Width": 147,
+            "Height": 48,
+            "TextId": "__SingleUse_9TD5",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "params_menu_label",
+            "X": 427,
+            "Y": 406,
+            "Width": 147,
+            "Height": 48,
+            "TextId": "__SingleUse_CTGT",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "dv_menu_label",
+            "X": 671,
+            "Y": 406,
+            "Width": 58,
+            "Height": 48,
+            "TextId": "__SingleUse_F91R",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Line",
+            "Name": "upper_divider",
+            "Y": 380,
+            "Width": 800,
+            "Height": 8,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndX": 800.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "lower_divider",
+            "Y": 476,
+            "Width": 800,
+            "Height": 8,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndX": 800.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "left_divider",
+            "Y": 380,
+            "Width": 8,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndY": 100.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "middle_left_divider",
+            "X": 198,
+            "Y": 380,
+            "Width": 8,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndY": 100.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "middle_divider",
+            "X": 398,
+            "Y": 380,
+            "Width": 8,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndY": 100.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "middle_right_divider",
+            "X": 598,
+            "Y": 380,
+            "Width": 8,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndY": 100.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "right_divider",
+            "X": 796,
+            "Y": 380,
+            "Width": 8,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "EndY": 100.0,
+            "LineWidth": 8.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "mission_selection_label",
+            "X": 271,
+            "Y": 15,
+            "Width": 259,
+            "Height": 36,
+            "TextId": "__SingleUse_Z383",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
           }
         ],
         "Interactions": []

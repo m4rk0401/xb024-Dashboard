@@ -137,6 +137,9 @@ Application/User/generated/FrontendApplicationBase.o: \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB888.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp \
+ ../../TouchGFX/gui/include/gui/mission_selection_screen/Mission_SelectionView.hpp \
+ ../../TouchGFX/generated/gui_generated/include/gui_generated/mission_selection_screen/Mission_SelectionViewBase.hpp \
+ ../../TouchGFX/gui/include/gui/mission_selection_screen/Mission_SelectionPresenter.hpp \
  ../../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp
 ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:
@@ -275,4 +278,7 @@ Application/User/generated/FrontendApplicationBase.o: \
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB888.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:
+../../TouchGFX/gui/include/gui/mission_selection_screen/Mission_SelectionView.hpp:
+../../TouchGFX/generated/gui_generated/include/gui_generated/mission_selection_screen/Mission_SelectionViewBase.hpp:
+../../TouchGFX/gui/include/gui/mission_selection_screen/Mission_SelectionPresenter.hpp:
 ../../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:

@@ -24,6 +24,9 @@
     <ClCompile Include="..\..\gui\src\main_screen\MainPresenter.cpp"/>
     <ClCompile Include="..\..\gui\src\main_screen\MainView.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\main_screen\MainViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\mission_selection_screen\Mission_SelectionPresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\mission_selection_screen\Mission_SelectionView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\mission_selection_screen\Mission_SelectionViewBase.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(ApplicationRoot)\assets\texts\texts.xml"/>
@@ -177,6 +180,9 @@
     <ClInclude Include="..\..\gui\include\gui\main_screen\MainPresenter.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\main_screen\MainView.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\main_screen\MainViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\mission_selection_screen\Mission_SelectionPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\mission_selection_screen\Mission_SelectionView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\mission_selection_screen\Mission_SelectionViewBase.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

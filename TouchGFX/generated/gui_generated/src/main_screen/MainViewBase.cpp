@@ -27,7 +27,7 @@ MainViewBase::MainViewBase()
     textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_VE94));
     add(textArea1);
 
-    soc_val.setXY(212, 48);
+    soc_val.setXY(205, 48);
     soc_val.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     soc_val.setLinespacing(0);
     Unicode::snprintf(soc_valBuffer, SOC_VAL_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_0GBC).getText());
@@ -90,21 +90,21 @@ MainViewBase::MainViewBase()
     line1_1.setLineEndingStyle(touchgfx::Line::ROUND_CAP_ENDING);
     add(line1_1);
 
-    box2.setPosition(0, 380, 200, 100);
-    box2.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
-    add(box2);
+    main_box.setPosition(0, 380, 200, 100);
+    main_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(main_box);
 
-    box2_1.setPosition(200, 380, 200, 100);
-    box2_1.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
-    add(box2_1);
+    mission_box.setPosition(200, 380, 200, 100);
+    mission_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(mission_box);
 
-    box2_2.setPosition(400, 380, 200, 100);
-    box2_2.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
-    add(box2_2);
+    params_box.setPosition(400, 380, 200, 100);
+    params_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(params_box);
 
-    box2_3.setPosition(600, 380, 200, 100);
-    box2_3.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
-    add(box2_3);
+    dv_box.setPosition(600, 380, 200, 100);
+    dv_box.setColor(touchgfx::Color::getColorFromRGB(255, 104, 1));
+    add(dv_box);
 
     mission_label.setXY(216, 252);
     mission_label.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));

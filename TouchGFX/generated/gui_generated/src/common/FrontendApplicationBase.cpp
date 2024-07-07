@@ -13,6 +13,8 @@
 #endif
 #include <gui/main_screen/MainView.hpp>
 #include <gui/main_screen/MainPresenter.hpp>
+#include <gui/mission_selection_screen/Mission_SelectionView.hpp>
+#include <gui/mission_selection_screen/Mission_SelectionPresenter.hpp>
 
 using namespace touchgfx;
 

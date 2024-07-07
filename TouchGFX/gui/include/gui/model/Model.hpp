@@ -14,8 +14,22 @@ public:
     }
 
     void tick();
+
+    enum Screen {
+    	MAIN,
+		MISSION,
+		PARAMS,
+		DV,
+    };
+
+    void set_current_screen(Screen screen_idx);
+
 protected:
     ModelListener* modelListener;
+
+private:
+    Screen current_screen;
+    Screen menu_selection_item;
 };
 
 #endif // MODEL_HPP

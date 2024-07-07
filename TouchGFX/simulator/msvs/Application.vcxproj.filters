@@ -184,6 +184,18 @@
     <Filter Include="Source Files\generated\gui_generated\main_screen">
       <UniqueIdentifier>31DC2512-B157-47DB-F1A8-60EAED723D46</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\gui\mission_selection_screen">
+      <UniqueIdentifier>1ED51835-A23B-C0D9-A04F-9C115927F9A5</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\mission_selection_screen">
+      <UniqueIdentifier>D8720C9E-5D25-A26B-3DDF-806535DA8728</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\mission_selection_screen">
+      <UniqueIdentifier>1606C267-39D3-45CA-96D3-F9805CCC3B07</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\mission_selection_screen">
+      <UniqueIdentifier>55E60A85-2084-D4D4-FAA2-B129161FAACA</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDL2TouchController.cpp">
@@ -224,6 +236,15 @@
     </ClCompile>
     <ClCompile Include="..\..\generated\gui_generated\src\main_screen\MainViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\main_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\mission_selection_screen\Mission_SelectionPresenter.cpp">
+      <Filter>Source Files\gui\mission_selection_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\mission_selection_screen\Mission_SelectionView.cpp">
+      <Filter>Source Files\gui\mission_selection_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\mission_selection_screen\Mission_SelectionViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\mission_selection_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -675,6 +696,15 @@
     </ClInclude>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\main_screen\MainViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\main_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\mission_selection_screen\Mission_SelectionPresenter.hpp">
+      <Filter>Header Files\gui\mission_selection_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\mission_selection_screen\Mission_SelectionView.hpp">
+      <Filter>Header Files\gui\mission_selection_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\mission_selection_screen\Mission_SelectionViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\mission_selection_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

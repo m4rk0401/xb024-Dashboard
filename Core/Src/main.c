@@ -56,8 +56,6 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 
-#define DEBOUNCE_DELAY 	50
-
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -106,9 +104,6 @@ const char *sdc[] = {
 		"RES",
 		"TSMS",
 };
-
-int last_debounce = 0;
-int debounce_delay = DEBOUNCE_DELAY;
 
 /* USER CODE END PV */
 

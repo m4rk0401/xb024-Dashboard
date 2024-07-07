@@ -35,11 +35,11 @@ C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.external
 ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:18:18:virtual void FrontendApplicationBase::changeToStartScreen()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp:35:18:virtual void touchgfx::NoTransition::handleTickEvent()	1
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:17:10:void ModelListener::bind(Model*)	1
-C:/TouchGFXProjects/TUfast_2.0/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:19:1:FrontendApplicationBase::FrontendApplicationBase(Model&, FrontendHeap&)	1
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:21:1:FrontendApplicationBase::FrontendApplicationBase(Model&, FrontendHeap&)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:175:7:constexpr touchgfx::GenericCallback<void>& touchgfx::GenericCallback<void>::operator=(const touchgfx::GenericCallback<void>&)	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:424:8:constexpr touchgfx::Callback<FrontendApplicationBase>& touchgfx::Callback<FrontendApplicationBase>::operator=(touchgfx::Callback<FrontendApplicationBase>&&)	1
-C:/TouchGFXProjects/TUfast_2.0/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:40:6:void FrontendApplicationBase::gotoMainScreenNoTransition()	1
-C:/TouchGFXProjects/TUfast_2.0/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:46:6:void FrontendApplicationBase::gotoMainScreenNoTransitionImpl()	1
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:42:6:void FrontendApplicationBase::gotoMainScreenNoTransition()	1
+C:/TouchGFXProjects/TUfast_2.0/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:48:6:void FrontendApplicationBase::gotoMainScreenNoTransitionImpl()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:175:7:constexpr touchgfx::GenericCallback<void>::GenericCallback()	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:427:5:touchgfx::Callback<dest_type, void, void, void>::Callback() [with dest_type = FrontendApplicationBase]	1
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:440:5:touchgfx::Callback<dest_type, void, void, void>::Callback(dest_type*, void (dest_type::*)()) [with dest_type = FrontendApplicationBase]	1

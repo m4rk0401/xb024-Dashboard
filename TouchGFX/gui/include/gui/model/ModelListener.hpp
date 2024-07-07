@@ -19,8 +19,13 @@ public:
         model = m;
     }
 
+    virtual void set_current_screen(Model::Screen screen_idx) {}
+
     virtual void set_new_value(int new_value) {}
     virtual void set_basicinfo(DASHBOARD_BASICINFO basicinfo) {}
+
+    virtual void set_menu_item(Model::Screen menu_item) {}
+
 protected:
     Model* model;
 };

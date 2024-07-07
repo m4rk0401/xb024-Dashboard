@@ -22,6 +22,7 @@
 
 /* USER CODE BEGIN 0 */
 #include <stdbool.h>
+#include <string.h>
 
 FDCAN_TxHeaderTypeDef fdcan_txheader;
 FDCAN_RxHeaderTypeDef fdcan_rxheader;
@@ -252,12 +253,11 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
 		}
 
 		// Msg: VCU_ButtonStatus
-		/*
 		if(fdcan_rxheader.Identifier == 0x223)
 		{
 			current_steering_buttonstatus.shift_left = (fdcan_rxdata[1] & 0b00000100) >> 2;
 			current_steering_buttonstatus.shift_right = (fdcan_rxdata[0] & 0b00000010) >> 1;
-		}*/
+		}
 	}
 	HAL_FDCAN_ActivateNotification(&hfdcan1,FDCAN_IT_RX_FIFO0_NEW_MESSAGE,0);
 }

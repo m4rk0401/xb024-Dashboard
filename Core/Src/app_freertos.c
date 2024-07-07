@@ -48,10 +48,20 @@ extern DASHBOARD_BASICINFO dashboard_basicinfo;
 extern STEERING_BUTTONSTATUS current_steering_buttonstatus;
 extern STEERING_BUTTONSTATUS last_steering_buttonstatus;
 
+int8_t left_click = -1;
+int8_t both_click = 0;
+int8_t right_click = 1;
+
 /* Definitions for basicinfo_queue */
 osMessageQueueId_t basicinfo_queue_handle;
 const osMessageQueueAttr_t basicinfo_queue_attributes = {
   .name = "basicinfo_queue"
+};
+
+/* Definitions for menuselect_queue */
+osMessageQueueId_t menuselect_queue_handle;
+const osMessageQueueAttr_t menuselect_queue_attributes = {
+  .name = "menuselect_queue"
 };
 
 /* USER CODE END Variables */
@@ -172,6 +182,7 @@ void MX_FREERTOS_Init(void) {
 
   /* USER CODE BEGIN RTOS_QUEUES */
   basicinfo_queue_handle = osMessageQueueNew(2, sizeof(dashboard_basicinfo), &basicinfo_queue_attributes);
+  menuselect_queue_handle = osMessageQueueNew(2, sizeof(int8_t), &menuselect_queue_attributes);
   /* add queues, ... */
   /* USER CODE END RTOS_QUEUES */
   /* creation of defaultTask */
@@ -263,33 +274,41 @@ void test_task_func(void *argument)
 void button_task(void *argument)
 {
   /* USER CODE BEGIN button_task */
+	static int button_pressed = 0;
   /* Infinite loop */
   for(;;)
   {
-	  /*
-	  if(HAL_GetTick() - last_debounce >= debounce_delay)
+	  // First check of buttons
+	  if((current_steering_buttonstatus.shift_left != last_steering_buttonstatus.shift_left ||
+			  current_steering_buttonstatus.shift_right != last_steering_buttonstatus.shift_right) &&
+			  !button_pressed)
 	  {
-		  if(current_steering_buttonstatus.shift_left != last_steering_buttonstatus.shift_left ||
-				  current_steering_buttonstatus.shift_right != last_steering_buttonstatus.shift_right)
+		  last_steering_buttonstatus.shift_left = current_steering_buttonstatus.shift_left;
+		  last_steering_buttonstatus.shift_right = current_steering_buttonstatus.shift_right;
+
+		  button_pressed = 1;
+	  }
+
+	  if(button_pressed)
+	  {
+
+		  if(current_steering_buttonstatus.shift_left && !current_steering_buttonstatus.shift_right)
 		  {
-			  last_steering_buttonstatus.shift_left = current_steering_buttonstatus.shift_left;
-			  last_steering_buttonstatus.shift_right = current_steering_buttonstatus.shift_right;
-
-			  if(current_steering_buttonstatus.shift_left && !current_steering_buttonstatus.shift_right)
-			  {
-				  // Left button click
-			  } else if(!current_steering_buttonstatus.shift_left && current_steering_buttonstatus.shift_right)
-			  {
-				  // Right button click
-			  } else if(current_steering_buttonstatus.shift_left && current_steering_buttonstatus.shift_right)
-			  {
-				  // Both buttons clicked
-			  }
-
-			  last_debounce = HAL_GetTick();
+			  // Left button click
+			  osMessageQueuePut(menuselect_queue_handle, &left_click, 0, 0);
+		  } else if(!current_steering_buttonstatus.shift_left && current_steering_buttonstatus.shift_right)
+		  {
+			  // Right button click
+			  osMessageQueuePut(menuselect_queue_handle, &right_click, 0, 0);
+		  } else if(current_steering_buttonstatus.shift_left && current_steering_buttonstatus.shift_right)
+		  {
+			  // Both buttons clicked
+			  osMessageQueuePut(menuselect_queue_handle, &both_click, 0, 0);
 		  }
-	  }*/
-    osDelay(33);
+
+		  button_pressed = 0;
+	  }
+    osDelay(50);
   }
   /* USER CODE END button_task */
 }

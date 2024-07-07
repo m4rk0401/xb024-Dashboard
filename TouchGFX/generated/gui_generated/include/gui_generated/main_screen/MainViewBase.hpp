@@ -43,10 +43,10 @@ protected:
     touchgfx::PainterRGB888 line1Painter;
     touchgfx::Line line1_1;
     touchgfx::PainterRGB888 line1_1Painter;
-    touchgfx::Box box2;
-    touchgfx::Box box2_1;
-    touchgfx::Box box2_2;
-    touchgfx::Box box2_3;
+    touchgfx::Box main_box;
+    touchgfx::Box mission_box;
+    touchgfx::Box params_box;
+    touchgfx::Box dv_box;
     touchgfx::TextArea mission_label;
     touchgfx::TextArea soc_label;
     touchgfx::TextArea sdc_label;
